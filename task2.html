@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;">
+    <h1>Registration form</h1>
+    <form action="login.html" method="get">
+        <label for="name"> Name:</label>
+        <input type="text" name="name" id="name" placeholder="enter your name" maxlength="20"> <br><br>
+        <label for="age"> Age:</label>
+        <input type="number" name="age" id="age" placeholder="enter your age" min="18" required><br><br>
+        <label for="password"> Password:</label>
+        <input type="password" name="password" id="password" placeholder="enter your password" maxlength="10" minlength="5"> <br><br>
+        <label for="phonenumber"> Ph no:</label>
+        <input type="number" name="phonenumber" placeholder="enter your phonenumber" id="phonenumber" required minlength="7"> <br><br>
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email" placeholder="enter your email" required><br><br>
+        <label> Gender: </label> <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male"> Male</label> <br>
+        <input type="radio" name="gender" id="female">
+        <label for="female"> female</label> <br>
+        <input type="radio" name="gender" id="other">
+        <label for="other"> other</label> <br><br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="10"  placeholder="enter your address" maxlength="50"></textarea> <br>
+        <label> <u>Bank</u></label>
+        <select name="Bank" id="Bank">
+        <option selected disabled> BANK</option>
+        <option value="sbi"> SBI</option> 
+        <option value="IDBI"> IDBI</option>
+        <option value="punjab"> PUNJAB</option>
+    </select> <br> <br>
+    <label> <u>branch</u></label> <br>
+    <label for="koppam"> koppam</label> 
+    <input type="checkbox" name="koppam" id="koppam">
+    <label for="pattambi"> pattambi</label>
+    <input type="checkbox" name="pattambi" id="pattambi">
+    <label for="checkbox"> pulamanthole</label>
+    <input type="checkbox" name="pulamanthole" id="pulamanthole"><br><br>
+    <input type="submit" name="submit" style="color: red; background-color: black;">
+
+ </form>
+    
+</body>
+</html>
